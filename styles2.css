@@ -2047,3 +2047,54 @@ h2 {
         font-size: 10px; /* Adjust text size for mobile */
     }
 }
+/* School Info Section */
+.school-info {
+    width: 80%; /* Increase width */
+    margin: 10px auto; /* Reduce top and bottom margin */
+    padding: 10px 20px; /* Reduce padding to decrease height */
+    text-align: center;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Keep the shadow effect */
+}
+
+.school-info h2 {
+    font-size: 22px; /* Keep heading size reduced */
+    margin-bottom: 8px; /* Reduce space under heading */
+}
+
+.school-info p {
+    font-size: 14px; /* Keep the text size smaller */
+    line-height: 1.4; /* Reduce line height to further reduce the height */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .school-info {
+        width: 90%; /* Adjust width for tablets */
+        padding: 8px 15px; /* Reduce padding further */
+    }
+
+    .school-info h2 {
+        font-size: 20px; /* Adjust heading size for smaller screens */
+    }
+
+    .school-info p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .school-info {
+        width: 95%; /* Further increase width on mobile */
+        padding: 5px 10px; /* Further reduce padding for mobile */
+    }
+
+    .school-info h2 {
+        font-size: 18px; /* Smaller heading for mobile */
+    }
+
+    .school-info p {
+        font-size: 12px; /* Adjust text size for mobile */
+    }
+}
