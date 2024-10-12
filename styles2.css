@@ -1941,3 +1941,58 @@ h2 {
         font-size: 14px; /* Adjust the font size for better readability on small screens */
     }
 }
+/* General styles for the home section */
+.home-section {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 40px 20px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .school-name {
+        font-size: 28px; /* Reduce font size */
+    }
+
+    .quick-links h2 {
+        font-size: 20px; /* Adjust welcome message font size */
+    }
+
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link-button {
+        padding: 10px 15px; /* Adjust button padding */
+        margin: 10px 0; /* Space between buttons */
+        font-size: 14px; /* Adjust button text size */
+    }
+}
+
+@media (max-width: 480px) {
+    .school-name {
+        font-size: 22px; /* Further reduce for very small screens */
+    }
+
+    .quick-links h2 {
+        font-size: 18px;
+    }
+
+    .link-button {
+        padding: 8px 12px;
+        font-size: 12px; /* Smaller buttons */
+    }
+
+    .hero-image {
+        padding: 20px 10px; /* Reduce padding to fit content within viewport */
+    }
+}
