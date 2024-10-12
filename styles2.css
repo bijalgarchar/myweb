@@ -2151,3 +2151,68 @@ h2 {
         font-size: 14px; /* Adjust paragraph size for mobile */
     }
 }
+/* Meet Our Teachers Section */
+.teacher-profiles {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.teacher-card-container {
+    display: flex;
+    justify-content: space-between; /* Ensure equal spacing between the cards */
+    flex-wrap: wrap; /* Allow the cards to wrap on smaller screens */
+    gap: 20px; /* Add space between cards */
+}
+
+/* Individual Teacher Card */
+.teacher-card {
+    width: 48%; /* Set width for two cards per row */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation for hover effect */
+}
+
+.teacher-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Teacher Image */
+.teacher-card img {
+    width: 80px; /* Keep the size consistent */
+    height: 80px; /* Ensure a square shape for perfect circle */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+/* Teacher Name */
+.teacher-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Teacher Description */
+.teacher-card p {
+    font-size: 14px;
+    color: #555555; /* Subtle text color */
+    margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .teacher-card {
+        width: 48%; /* Adjust width for two cards per row */
+        margin-bottom: 20px; /* Add space between rows */
+    }
+}
+
+@media (max-width: 480px) {
+    .teacher-card {
+        width: 90%; /* Full width for mobile */
+        margin-bottom: 20px; /* Space between rows on mobile */
+    }
+}
