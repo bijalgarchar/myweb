@@ -1998,7 +1998,7 @@ h2 {
 }
 /* School Info Section */
 .school-info {
-    width: 80%; /* Reduce the width */
+    width: 85%; /* Reduce the width */
     margin: 20px auto;
     padding: 15px;
     text-align: center;
@@ -2008,12 +2008,12 @@ h2 {
 }
 
 .school-info h2 {
-    font-size: 18px; /* Slightly reduce the heading size */
+    font-size: 22px; /* Slightly reduce the heading size */
     margin-bottom: 10px;
 }
 
 .school-info p {
-    font-size: 10px; /* Make the paragraph text smaller */
+    font-size: 14px; /* Make the paragraph text smaller */
     line-height: 1.6; /* Adjust line height for better readability */
 }
 
@@ -2025,11 +2025,11 @@ h2 {
     }
 
     .school-info h2 {
-        font-size: 16px; /* Adjust heading size on smaller screens */
+        font-size: 20px; /* Adjust heading size on smaller screens */
     }
 
     .school-info p {
-        font-size: 10px; /* Slightly smaller text */
+        font-size: 14px; /* Slightly smaller text */
     }
 }
 
@@ -2040,7 +2040,7 @@ h2 {
     }
 
     .school-info h2 {
-        font-size: 16px; /* Smaller heading for mobile */
+        font-size: 20px; /* Smaller heading for mobile */
     }
 
     .school-info p {
